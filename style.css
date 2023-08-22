@@ -172,37 +172,59 @@ p {
 
 
 /* Work Exprience starts here */
+.container-professional {
+    background-color: #407a7e;
+    padding: 10px 0;
+}
 
-.professional-experience {
+.professional {
     padding: 1% 0;
 }
-.card {
+.work-exprience__card {
     background-color: #a39e9e;
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
     height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.card:hover {
+.work-exprience__card:hover {
     box-shadow: 0 4px 8px 5px black;
 }
-.professional-experience img {
-height: 70px;
-width: 60;
-border-radius: 50%;
+
+.work-exprience__head {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    
 }
-.card-icon {
+
+.work-exprience__head img {
+    height: 70px;
+    width: 60;
+    border-radius: 50%;
+}
+.work-exprience__head-image {
     text-align: center;
-    margin: 16px 0;
+    margin: 5px 0;
+    
 }
-.professional-experience h1 {
-    background-color: rgb(56, 116, 56);
-    width: 90%;
-    border-radius: 10px;
-    margin: 0 auto;
-    color: white;
-    padding: 10px 0;
+.work-exprience__head-title {    
+    background-color: lightblue;
+    padding: 0 20px;
+    border-radius: 3px;
 }
+
+.work-exprience__card-disc {
+    line-height: 15px;
+    font-size: 1.5rem;
+}
+.work-exprience__card-disc h2 {
+    text-align: left;
+}
+
 
 /* Work Exprience End here */
 
@@ -269,9 +291,40 @@ border-radius: 50%;
 }
 @keyframes bootstrap {
     to{
-        width: 60%;
+        width: 70%;
     }
+
+    
 }
+
+.skills-container li.js::after {
+    animation-name: js;
+}
+@keyframes js {
+    to{
+        width: 40%;
+    }    
+}
+
+.skills-container li.Tailwindcss::after {
+    animation-name: Tailwindcss;
+}
+@keyframes Tailwindcss {
+    to{
+        width: 55%;
+    }    
+}
+
+.skills-container li.git::after {
+    animation-name: git;
+}
+@keyframes git {
+    to{
+        width: 75%;
+    }    
+}
+
+
 
 
 
