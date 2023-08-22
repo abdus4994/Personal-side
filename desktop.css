@@ -14,9 +14,13 @@
 /* navbar desgn form here */
 
 .nav-logo {
-    text-align: left;  
-    
+    display: flex;
+    flex: row;
+    align-items: center;
 }
+
+
+
 .logo {
    margin-right: 15px; 
 

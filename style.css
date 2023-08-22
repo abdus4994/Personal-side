@@ -46,6 +46,7 @@ p {
 [class*="col-"] {
     width: 100%;
 }
+
 .nav-logo img {
     /* border: 1px solid white; */
     border-radius: 50%;
