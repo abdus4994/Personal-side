@@ -133,6 +133,10 @@
 .contact-links {
     position: relative;
 }
+.work-exprience__card-disc {
+    line-height: 15px;
+}
+
 .media-buttons {
 position: absolute;
 left: 50%;
